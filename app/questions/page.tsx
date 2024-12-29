@@ -18,6 +18,36 @@ const questions: QuizQuestion[] = [
     correctAnswer: "Rajkumar Hirani",
     type: "multiple-choice",
   },
+  {
+    question: "What is the highest-grossing Bollywood movie of all time (as of 2024)?",
+    answers: ["Dangal", "Pathaan", "Baahubali: The Conclusion"],
+    correctAnswer: "Dangal",
+    type: "multiple-choice",
+  },
+  {
+    question: "Which Bollywood movie won India's first-ever Oscar for Best Original Song?",
+    answers: ["RRR", "Lagaan", "Slumdog Millionaire"],
+    correctAnswer: "RRR",
+    type: "multiple-choice",
+  },
+  {
+    question: "Who composed the music for the movie Rockstar?",
+    answers: ["A.R. Rahman", "Pritam", "Shankar-Ehsaan-Loy"],
+    correctAnswer: "A.R. Rahman",
+    type: "multiple-choice",
+  },
+  {
+    question: "In which year was the movie Sholay released?",
+    answers: ["1972", "1975", "1978"],
+    correctAnswer: "1975",
+    type: "multiple-choice",
+  },
+  {
+    question: "Which Bollywood actor was honored with the Dadasaheb Phalke Award in 2022?",
+    answers: ["Amitabh Bachchan", "Rajinikanth", "Asha Parekh"],
+    correctAnswer: "Asha Parekh",
+    type: "multiple-choice",
+  },
   // aru questions yastai format ma xa
 ];
 
