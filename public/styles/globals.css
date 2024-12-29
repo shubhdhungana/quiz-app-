@@ -1,0 +1,65 @@
+/* body ko style define gareko, overall look maintain garna */
+body {
+  font-family: Arial, sans-serif; /* Arial text type use gareko */
+  text-align: center; /* sabai text center ma huncha */
+  background-color: #ffe600; /* yellow background */
+  color: #333; /* dark gray text color */
+  margin: 0; /* body ko side ko space hatauna */
+  padding: 0; /* body ko inner space pani remove gareko */
+}
+
+/* quiz, question, results ko container ko style */
+.quiz-container,
+.question-container,
+.results-container {
+  width: 90%; /* screen ko 90% width cover garne */
+  max-width: 400px; /* max 400px wide huncha */
+  margin: 20px auto; /* vertically 20px, horizontally center */
+  padding: 15px; /* inner space for better look */
+  background-color: white;
+  border: 2px solid #ffd700;
+  border-radius: 10px; /* container ko corner round banayo */
+}
+
+/* button ko styling gareko, user click garna easy ho */
+button {
+  padding: 10px 20px;
+  margin: 10px; /* button ma space deko, separate dekhiyo */
+  background-color: #fffc00; /* bright yellow color button */
+  color: #333; /* text color dark gray */
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* button hover style gareko, interact garna better feel */
+button:hover {
+  background-color: #ffeb3b;
+}
+
+/* progress bar ko overall container */
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #f0f0f0;
+  margin: 10px 0; /* top bottom ma space deko */
+}
+
+/* progress ko dynamic part, fill part ho */
+.progress {
+  height: 100%; /* pura bar cover garne vertically */
+  background-color: #ffc107;
+}
+
+/* heading ko style h1 h2 ko lagi */
+h1,
+h2 {
+  font-size: 1.5em; /* text size moderate rakheko */
+  margin: 10px 0; /* maathi tala space deko */
+}
+
+/* small text ko style, notes haru ko lagi */
+small {
+  font-size: 0.9em; /* small text */
+  color: #555; /* halka dark gray rakheko */
+}
